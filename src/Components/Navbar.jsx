@@ -7,14 +7,14 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <div className="nav-container bg-red-500 flex justify-between p-5  lg:bg-purple-400  lg:pl-16">
+      <div className="nav-container  bg-black flex justify-between p-5 md:pt-[44px] lg:pl-16">
 
         <div className="logo">
           Logo
         </div>
 
 
-        <div className={`nav-links hidden absolute top-16 w-full -ml-5 flex-col items-center text-center 
+        <div className={`nav-links hidden absolute top-16 w-full  -ml-5 flex-col items-center text-center 
         lg:flex lg:mr-auto lg:static lg:w-auto lg:m-0 lg:flex-row  lg:justify-between lg:w-full lg:ml-16 lg:mr-16 ${show? "sm:flex" : "xyz"} `}>
 
           <div className="nav-links-info mt-4 lg:mt-0  ">
